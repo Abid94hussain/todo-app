@@ -1,0 +1,64 @@
+* {
+     padding: 0;
+     margin: 0;
+     font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+     width: 100vw;
+     height: 100vh;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     background-color: burlywood;
+}
+
+main {
+     width: 70%;
+     height: 70%;
+     margin-top: 1rem;
+     padding: 1rem;
+     border-radius: 10%;
+     background-color: cadetblue;
+     display: flex;
+     justify-content: center;
+}
+
+#inpt {
+     height: 1.8rem;
+     width: 50%;
+     font-size: large;
+     border: 2px solid white;
+}
+
+#inpt:focus {
+     outline: none;
+}
+
+#btn {
+     height: 2rem;
+     width: 5rem;
+     margin-left: 1rem;
+     font-size: 20px;
+}
+
+
+ul {
+     position: absolute;
+     top: 10rem;
+     left: 12rem;
+}
+
+li {
+     margin-bottom: 1rem;
+     font-size: 30px;
+}
+
+ul li button {
+     height: 2rem;
+     width: 6rem;
+     margin-left: 5rem;
+     
+}
+
